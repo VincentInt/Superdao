@@ -1,4 +1,4 @@
-import imgAvatarIcon1 from '../../../../assets/img/Img.svg';
+import imgAvatarIcon1 from '../../../../assets/img/ImgAvatar.svg';
 import imgAvatarIcon2 from '../../../../assets/img/Img-1.svg';
 import imgAvatarIcon3 from '../../../../assets/img/Img-2.svg';
 import imgAvatarIcon4 from '../../../../assets/img/Img-3.svg';
