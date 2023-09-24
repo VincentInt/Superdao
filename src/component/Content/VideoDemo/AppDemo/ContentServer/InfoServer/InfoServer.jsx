@@ -1,6 +1,6 @@
 import style from './InfoServer.module.scss';
 import imgBanner from '../../../../../../assets/img/banner.svg';
-import imgAvatar from '../../../../../../assets/img/img.svg';
+import imgAvatar from '../../../../../../assets/img/ImgAvatar.svg';
 import imgTwiter from '../../../../../../assets/img/twitter2-24.svg';
 import imgDiscord from '../../../../../../assets/img/discord-24.svg';
 import imgTelegram from '../../../../../../assets/img/telegram-24.svg';
