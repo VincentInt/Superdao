@@ -1,0 +1,235 @@
+.NFTCardContainer {
+  background-color: #252b36;
+  .imgContainer {
+    overflow: hidden;
+  }
+  .textContainer {
+    .numberCards {
+      margin: 0;
+      color: #717a8c;
+    }
+    .nameCard {
+      margin: 0;
+    }
+    .containerFlexText {
+      display: flex;
+      align-items: center;
+      .priceMatic {
+        margin: 0;
+        color: #fc7900;
+      }
+      .priceUSD {
+        margin: 0;
+        color: #717a8c;
+      }
+    }
+    .btnCardShoping {
+      cursor: pointer;
+      border: none;
+      background: #fc7900;
+      &:hover {
+        filter: brightness(80%);
+      }
+    }
+  }
+}
+@media (max-width: 1920px) {
+  .NFTCardContainer {
+    border-radius: 6.747px;
+    padding: 13.5px;
+    margin-right: 25px;
+    .imgContainer {
+      .img {
+        height: 175px;
+        width: 175px;
+      }
+    }
+    .textContainer {
+      margin-top: 10px;
+      .numberCards {
+        font-size: 10.964px;
+        font-weight: 400;
+        line-height: 15.181px; /* 138.462% */
+        letter-spacing: -0.067px;
+      }
+      .nameCard {
+        margin: 0;
+        margin-top: 2.5px;
+        font-size: 14.337px;
+        font-weight: 700;
+        line-height: 20.241px; /* 141.176% */
+        letter-spacing: -0.346px;
+      }
+      .containerFlexText {
+        .priceMatic {
+          font-size: 11.807px;
+          font-weight: 600;
+          line-height: 16.867px; /* 142.857% */
+          letter-spacing: -0.202px;
+        }
+        .priceUSD {
+          font-size: 10.964px;
+          font-weight: 400;
+          margin-left: 5px;
+        }
+      }
+      .btnCardShoping {
+        padding: 5px 13.5px;
+        margin-top: 13px;
+        border-radius: 8px;
+        font-size: 11.807px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .NFTCardContainer {
+    border-radius: 4.5px;
+    padding: 8.8px;
+    margin-right: 9.35px;
+    .imgContainer {
+      .img {
+        height: 115px;
+        width: 115px;
+      }
+    }
+    .textContainer {
+      margin-top: 6.5px;
+      .numberCards {
+        font-size: 7.2px;
+        font-weight: 400;
+        line-height: 10px; /* 138.462% */
+        letter-spacing: -0.067px;
+      }
+      .nameCard {
+        margin: 0;
+        margin-top: 2px;
+        font-size: 9.5px;
+        font-weight: 700;
+        line-height: 13.5px; /* 141.176% */
+        letter-spacing: -0.346px;
+      }
+      .containerFlexText {
+        .priceMatic {
+          font-size: 8px;
+          font-weight: 600;
+          line-height: 11px; /* 142.857% */
+          letter-spacing: -0.202px;
+        }
+        .priceUSD {
+          font-size: 7.2px;
+          font-weight: 400;
+          margin-left: 2.5px;
+        }
+      }
+      .btnCardShoping {
+        padding: 3px 9px;
+        margin-top: 5px;
+        border-radius: 6px;
+        font-size: 7.5px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .NFTCardContainer {
+    border-radius: 2.7px;
+    padding: 5.5px;
+    margin-right: 4.5px;
+    .imgContainer {
+      .img {
+        height: 70px;
+        width: 70px;
+      }
+    }
+    .textContainer {
+      margin-top: 4px;
+      .numberCards {
+        font-size: 4.5px;
+        font-weight: 400;
+        line-height: 6px; /* 138.462% */
+        letter-spacing: -0.067px;
+      }
+      .nameCard {
+        margin: 0;
+        margin-top: 2px;
+        font-size: 6px;
+        font-weight: 700;
+        line-height: 8.5px; /* 141.176% */
+        letter-spacing: -0.346px;
+      }
+      .containerFlexText {
+        .priceMatic {
+          font-size: 5px;
+          font-weight: 600;
+          line-height: 7px; /* 142.857% */
+          letter-spacing: -0.202px;
+        }
+        .priceUSD {
+          font-size: 4.5px;
+          font-weight: 400;
+          margin-left: 2px;
+        }
+      }
+      .btnCardShoping {
+        padding: 2px 6px;
+        margin-top: 5px;
+        border-radius: 5px;
+        font-size: 5px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  .NFTCardContainer {
+    border-radius: 2.7px;
+    padding: 4.5px;
+    margin-right: 4px;
+    .imgContainer {
+      .img {
+        height: 57px;
+        width: 57px;
+      }
+    }
+    .textContainer {
+      margin-top: 4px;
+      .numberCards {
+        font-size: 3.5px;
+        font-weight: 400;
+        line-height: 5px; /* 138.462% */
+        letter-spacing: -0.067px;
+      }
+      .nameCard {
+        margin: 0;
+        margin-top: 1px;
+        font-size: 5px;
+        font-weight: 700;
+        line-height: 6.5px; /* 141.176% */
+        letter-spacing: -0.346px;
+      }
+      .containerFlexText {
+        .priceMatic {
+          font-size: 4px;
+          font-weight: 600;
+          line-height: 5px; /* 142.857% */
+          letter-spacing: -0.202px;
+        }
+        .priceUSD {
+          font-size: 4px;
+          font-weight: 400;
+          margin-left: 1px;
+        }
+      }
+      .btnCardShoping {
+        padding: 1px 4px;
+        margin-top: 3px;
+        border-radius: 3px;
+        font-size: 4px;
+        font-weight: 600;
+      }
+    }
+  }
+}

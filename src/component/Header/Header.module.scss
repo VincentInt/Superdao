@@ -1,0 +1,290 @@
+.flexContainerCenter {
+  display: flex;
+  justify-content: center;
+  .containerHeader {
+    .containerNavigation {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0px 350px 250px 10px #2e4d67;
+      .flexContainer {
+        display: flex;
+        align-items: center;
+        .containerBtnSmall {
+          .btnNavigation {
+            cursor: pointer;
+            background-color: transparent;
+            border: none;
+            padding: 0;
+          }
+        }
+        .logoBtnNavigation {
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          background-color: transparent;
+          border: none;
+        }
+      }
+      .containerBtnSmallBurger {
+        display: none;
+      }
+      .btnLogin {
+        cursor: pointer;
+        border-radius: 12px;
+        background: #243241;
+        border: none;
+      }
+    }
+    .bannerContainer {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      .btnScrollContainer {
+        .btnScroll {
+          cursor: pointer;
+          background-color: transparent;
+          border: none;
+        }
+      }
+      .btnStart {
+        cursor: pointer;
+        color: #10151a;
+        border-radius: 16px;
+        background: #ffcf01;
+        box-shadow: 0px 9px 44px 0px rgba(255, 207, 1, 0.2);
+      }
+    }
+  }
+}
+@media (max-width: 1920px) {
+  .flexContainerCenter {
+  .containerHeader {
+    max-width: 1140px;
+    .containerNavigation {
+      .flexContainer {
+        .containerBtnSmall {
+          margin-left: 112px;
+          .btnNavigation {
+            font-size: 20px;
+            font-weight: 500;
+            margin-right: 44px;
+          }
+        }
+        .logoBtnNavigation {
+          .imgLogo {
+            height: 32px;
+          }
+          .logoTextH4 {
+            margin-left: 5px;
+            font-size: 24px;
+            font-weight: 600;
+          }
+        }
+      }
+      .containerBtnSmallBurger {
+        display: none;
+      }
+      .btnLogin {
+        padding: 11px 20px;
+        font-size: 20px;
+        font-weight: 500;
+      }
+    }
+    .bannerContainer {
+      margin-top: 132px;
+
+      .btnScrollContainer {
+        margin-top: 118px;
+      }
+      .bannerH1Text {
+        font-size: 72px;
+        font-weight: 700;
+        line-height: 82px;
+        letter-spacing: 1px;
+        max-width: 642px;
+      }
+      .bannerH6Text {
+        max-width: 649px;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 46px;
+      }
+      .btnStart {
+        font-size: 20px;
+        font-weight: 700;
+        padding: 16px 48px;
+      }
+    }
+  }
+}
+}
+@media (max-width: 960px) {
+  .flexContainerCenter {
+  .containerHeader {
+    max-width: 736px;
+    .containerNavigation {
+      .flexContainer {
+        .containerBtnSmall {
+          margin-left: 55px;
+          .btnNavigation {
+            font-size: 14px;
+            font-weight: 500;
+            margin-right: 24px;
+          }
+        }
+        .logoBtnNavigation {
+          .imgLogo {
+            height: 23px;
+          }
+          .logoTextH4 {
+            margin-left: 5px;
+            font-size: 16px;
+            font-weight: 600;
+          }
+        }
+      }
+      .containerBtnSmallBurger {
+        display: none;
+      }
+      .btnLogin {
+        padding: 8px 16px;
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+    .bannerContainer {
+      margin-top: 72px;
+
+      .btnScrollContainer {
+        margin-top: 64px;
+      }
+      .bannerH1Text {
+        font-size: 52px;
+        font-weight: 700;
+        line-height: 60px;
+        max-width: 454px;
+      }
+      .bannerH6Text {
+        max-width: 499px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 34px;
+      }
+      .btnStart {
+        font-size: 17px;
+        font-weight: 700;
+        padding: 13px 37px;
+      }
+    }
+  }
+}
+}
+@media (max-width: 768px) {
+  .flexContainerCenter {
+  .containerHeader {
+    max-width: 400px;
+    .containerNavigation {
+      .flexContainer {
+        .containerBtnSmall {
+          display: none;
+        }
+        .logoBtnNavigation {
+          .imgLogo {
+            height: 23px;
+          }
+          .logoTextH4 {
+            margin-left: 5px;
+            font-size: 16px;
+            font-weight: 600;
+          }
+        }
+      }
+      .containerBtnSmallBurger {
+        display: block;
+      }
+      .btnLogin {
+        display: none;
+      }
+    }
+    .bannerContainer {
+      margin-top: 64px;
+      .btnScrollContainer {
+        display: none;
+      }
+      .bannerH1Text {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        max-width: 314px;
+      }
+      .bannerH6Text {
+        max-width: 314px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+      }
+      .btnStart {
+        font-size: 18px;
+        font-weight: 700;
+        padding: 8px 28px;
+        line-height: 30px;
+      }
+    }
+  }
+}
+}
+@media (max-width: 360px) {
+  .flexContainerCenter {
+  .containerHeader {
+    max-width: 360px;
+    .containerNavigation {
+      .flexContainer {
+        .containerBtnSmall {
+          display: none;
+        }
+        .logoBtnNavigation {
+          .imgLogo {
+            height: 23px;
+          }
+          .logoTextH4 {
+            margin-left: 5px;
+            font-size: 16px;
+            font-weight: 600;
+          }
+        }
+      }
+      .containerBtnSmallBurger {
+        display: block;
+      }
+      .btnLogin {
+        display: none;
+      }
+    }
+    .bannerContainer {
+      margin-top: 64px;
+      .btnScrollContainer {
+        display: none;
+      }
+      .bannerH1Text {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        max-width: 314px;
+      }
+      .bannerH6Text {
+        max-width: 314px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+      }
+      .btnStart {
+        font-size: 18px;
+        font-weight: 700;
+        padding: 8px 28px;
+        line-height: 30px;
+      }
+    }
+  }
+}
+}

@@ -1,0 +1,91 @@
+.containerNFTShop {
+  .NFTCardContainer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .containerFlexTitleNFTShop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .titleText {
+      display: flex;
+      align-items: center;
+      .membersNFTCard {
+        color: #717a8c;
+      }
+    }
+  }
+}
+@media (max-width: 1920px) {
+  .containerNFTShop {
+    margin-top: 10px;
+    .containerFlexTitleNFTShop {
+      .titleText {
+        .h3Text {
+          font-size: 16.867px;
+          font-weight: 700;
+        }
+        .membersNFTCard {
+          margin-left: 7px;
+          font-size: 16.867px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .containerNFTShop {
+    margin-top: 8px;
+    .containerFlexTitleNFTShop {
+      .titleText {
+        .h3Text {
+          font-size: 11px;
+          font-weight: 700;
+        }
+        .membersNFTCard {
+          margin-left: 5px;
+          font-size: 11px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .containerNFTShop {
+    margin-top: 6px;
+    .containerFlexTitleNFTShop {
+      .titleText {
+        .h3Text {
+          font-size: 7px;
+          font-weight: 700;
+        }
+        .membersNFTCard {
+          margin-left: 4px;
+          font-size: 7px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  .containerNFTShop {
+    margin-top: 4px;
+    .containerFlexTitleNFTShop {
+      .titleText {
+        .h3Text {
+          font-size: 5.5px;
+          font-weight: 700;
+        }
+        .membersNFTCard {
+          margin-left: 2px;
+          font-size: 5.5px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

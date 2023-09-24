@@ -1,0 +1,326 @@
+.containerContentInfoServer {
+  display: flex;
+  overflow: hidden;
+  background-color: #252b36;
+  .windowBanner {
+    overflow: hidden;
+    width: 100%;
+  }
+  .containerInfoServer {
+    .containerFlexAvatarSection {
+      display: flex;
+      justify-content: space-between;
+      .ContainerbtnSocialNetwork {
+        display: flex;
+        align-items: center;
+        .btnSocialNetwork {
+          display: flex;
+          align-items: center;
+          cursor: pointer;
+          border: none;
+          background-color: #343a46;
+        }
+      }
+    }
+    .containerTextInfo {
+      .h2NameText {
+        margin: 0;
+      }
+      .btnCopyName {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        background-color: transparent;
+        color: #a2a8b4;
+        border: none;
+        padding: 0;
+      }
+      .pTextDescription {
+        color: #fff;
+      }
+      .containerBtnOptional {
+        display: flex;
+        align-items: center;
+        .btnOptional {
+          cursor: pointer;
+          color: #fff;
+          border: none;
+          background: rgba(208, 220, 245, 0.08);
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1920px) {
+  .containerContentInfoServer {
+    border-radius: 6.747px;
+    padding-bottom: 20px;
+    .windowBanner {
+      height: 100px;
+      .banner {
+        width: 689px;
+      }
+    }
+    .containerInfoServer {
+      margin-left: 20px;
+      margin-right: 20px;
+      .containerFlexAvatarSection {
+        .imgAvatar {
+          height: 67px;
+          width: 67px;
+          margin-top: -33.5px;
+        }
+        .ContainerbtnSocialNetwork {
+          margin-top: 24px;
+          .btnSocialNetwork {
+            border-radius: 7px;
+            padding: 5.06px;
+            margin-left: 7px;
+            .iconImgSocial{
+              width: 17px;
+            }
+          }
+        }
+      }
+      .containerTextInfo {
+        .h2NameText {
+          font-size: 20.241px;
+          font-weight: 700;
+          line-height: 26.988px; /* 133.333% */
+          letter-spacing: 0.304px;
+        }
+        .btnCopyName {
+          font-size: 12.651px;
+          font-weight: 400;
+          line-height: 20.241px; /* 160% */
+          .imgCopy {
+            margin-left: 7px;
+          }
+        }
+        .pTextDescription {
+          margin-top: 12px;
+          font-size: 12.651px;
+          font-weight: 400;
+          line-height: 20.241px; /* 160% */
+          letter-spacing: -0.202px;
+        }
+        .containerBtnOptional {
+          .btnOptional {
+            margin-right: 10px;
+            padding: 5px 13.5px;
+            font-size: 11.807px;
+            font-weight: 600;
+            border-radius: 6.747px;
+            background: rgba(208, 220, 245, 0.08);
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .containerContentInfoServer {
+    border-radius: 6.747px;
+    padding-bottom: 20px;
+    .windowBanner {
+      height: 65px;
+      .banner {
+        width: 421px;
+      }
+    }
+    .containerInfoServer {
+      margin-left: 16px;
+      margin-right: 16px;
+      .containerFlexAvatarSection {
+        .imgAvatar {
+          height: 45px;
+          width: 45px;
+          margin-top: -23.5px;
+        }
+        .ContainerbtnSocialNetwork {
+          margin-top: 12px;
+          .btnSocialNetwork {
+            border-radius: 4.5px;
+            padding: 5px;
+            margin-left: 5px;
+            .iconImgSocial{
+              width: 11px;
+            }
+          }
+        }
+      }
+      .containerTextInfo {
+        .h2NameText {
+          font-size: 13.5px;
+          font-weight: 700;
+          line-height: 17.988px; /* 133.333% */
+          letter-spacing: 0.304px;
+        }
+        .btnCopyName {
+          font-size: 8.651px;
+          font-weight: 400;
+          line-height: 13.241px; /* 160% */
+          .imgCopy {
+            width: 8px;
+            margin-left: 7px;
+          }
+        }
+        .pTextDescription {
+          margin-top: 8px;
+          font-size: 8.651px;
+          font-weight: 400;
+          line-height: 13.241px; /* 160% */
+          letter-spacing: -0.202px;
+        }
+        .containerBtnOptional {
+          .btnOptional {
+            margin-right: 8px;
+            padding: 2px 9px;
+            font-size: 8.807px;
+            font-weight: 600;
+            border-radius: 4.747px;
+            background: rgba(208, 220, 245, 0.08);
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .containerContentInfoServer {
+    border-radius: 3.747px;
+    padding-bottom: 10px;
+    .windowBanner {
+      height: 20px;
+      .banner {
+        width: 256px;
+      }
+    }
+    .containerInfoServer {
+      margin-left: 8px;
+      margin-right: 8px;
+      .containerFlexAvatarSection {
+        .imgAvatar {
+          height: 27px;
+          width: 27px;
+          margin-top: -17.5px;
+        }
+        .ContainerbtnSocialNetwork {
+          margin-top: 10px;
+          .btnSocialNetwork {
+            border-radius: 3.5px;
+            margin-left: 2px;
+            padding: 4px;
+            margin-left: 3px;
+            .iconImgSocial{
+              width: 6px;
+            }
+          }
+        }
+      }
+      .containerTextInfo {
+        .h2NameText {
+          font-size: 8.5px;
+          font-weight: 700;
+          line-height: 10px; /* 133.333% */
+          letter-spacing: 0.304px;
+        }
+        .btnCopyName {
+          font-size: 5.5px;
+          font-weight: 400;
+          line-height: 13.241px; /* 160% */
+          .imgCopy {
+            width: 5px;
+            margin-left: 2px;
+          }
+        }
+        .pTextDescription {
+          margin-top: 4px;
+          font-size: 5.5px;
+          font-weight: 400;
+          line-height: 8px; /* 160% */
+          letter-spacing: -0.202px;
+        }
+        .containerBtnOptional {
+          .btnOptional {
+            margin-right: 4px;
+            padding: 2px 5px;
+            font-size: 4.5px;
+            font-weight: 600;
+            border-radius: 2.747px;
+            background: rgba(208, 220, 245, 0.08);
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  .containerContentInfoServer {
+    border-radius: 3.747px;
+    padding-bottom: 10px;
+    .windowBanner {
+      height: 20px;
+      .banner {
+        width: 210px;
+      }
+    }
+    .containerInfoServer {
+      margin-left: 8px;
+      margin-right: 8px;
+      .containerFlexAvatarSection {
+        .imgAvatar {
+          height: 22px;
+          width: 22px;
+          margin-top: -11px;
+        }
+        .ContainerbtnSocialNetwork {
+          margin-top: 8px;
+          .btnSocialNetwork {
+            border-radius: 3.5px;
+            margin-left: 2px;
+            padding: 4px;
+            margin-left: 3px;
+            .iconImgSocial{
+              width: 4.5px;
+            }
+          }
+        }
+      }
+      .containerTextInfo {
+        .h2NameText {
+          font-size: 6.8px;
+          font-weight: 700;
+          line-height: 8px; /* 133.333% */
+          letter-spacing: 0.304px;
+        }
+        .btnCopyName {
+          font-size: 4.1px;
+          font-weight: 400;
+          line-height: 6.2px; /* 160% */
+          .imgCopy {
+            width: 4px;
+            margin-left: 1.5px;
+          }
+        }
+        .pTextDescription {
+          margin-top: 4px;
+          font-size: 4.1px;
+          font-weight: 400;
+          line-height: 6px; /* 160% */
+          letter-spacing: -0.202px;
+        }
+        .containerBtnOptional {
+          .btnOptional {
+            margin-right: 4px;
+            padding: 2px 5px;
+            font-size: 4.5px;
+            font-weight: 600;
+            border-radius: 2.747px;
+            background: rgba(208, 220, 245, 0.08);
+          }
+        }
+      }
+    }
+  }
+}

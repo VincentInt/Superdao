@@ -1,0 +1,135 @@
+.containerCenterBacked {
+  display: flex;
+  justify-content: center;
+  .titleText {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .h2Text {
+      margin: 0;
+    }
+    .svgStar {
+      position: absolute;
+    }
+  }
+  .containerImgBacked {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    .gradientBacked {
+      position: absolute;
+      &:nth-child(1) {
+        background: linear-gradient(90deg, #10151a 0%, rgba(16, 21, 26, 0) 100%);
+      }
+      &:nth-child(3) {
+        right: 0px;
+        background: linear-gradient(270deg, #10151a 0%, rgba(16, 21, 26, 0) 100%);
+      }
+    }
+  }
+}
+@media (max-width: 1920px) {
+  .containerCenterBacked {
+    margin-top: 170px;
+    .titleText {
+      .h2Text {
+        font-size: 54px;
+        font-weight: 700;
+      }
+      .svgStar {
+        width: 65px;
+        top: 20px;
+        margin-left: 430px;
+      }
+    }
+    .containerImgBacked {
+      margin-top: 56px;
+      width: 1855px;
+      .gradientBacked {
+        width: 500px;
+        height: 286px;
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .containerCenterBacked {
+    margin-top: 80px;
+    .titleText {
+      .h2Text {
+        font-size: 36px;
+        font-weight: 700;
+      }
+      .svgStar {
+        width: 52px;
+        top: 5px;
+        margin-left: 300px;
+      }
+    }
+    .containerImgBacked {
+      margin-top: 24px;
+      width: 886px;
+      .imgBacked {
+        width: 960px;
+      }
+      .gradientBacked {
+        width: 260px;
+        height: 286px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .containerCenterBacked {
+    margin-top: 65px;
+    .titleText {
+      .h2Text {
+        font-size: 28px;
+        font-weight: 700;
+      }
+      .svgStar {
+        width: 32px;
+        top: 5px;
+        margin-left: 220px;
+      }
+    }
+    .containerImgBacked {
+      margin-top: 24px;
+      width: 694px;
+      .imgBacked {
+        width: 760px;
+      }
+      .gradientBacked {
+        width: 260px;
+        height: 286px;
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  .containerCenterBacked {
+    margin-top: 80px;
+    .titleText {
+      .h2Text {
+        font-size: 28px;
+        font-weight: 700;
+      }
+      .svgStar {
+        width: 28px;
+        top: 2px;
+        margin-left: 220px;
+      }
+    }
+    .containerImgBacked {
+      margin-top: 24px;
+      width: 341px;
+      .imgBacked {
+        width: 560px;
+      }
+      .gradientBacked {
+        width: 260px;
+        height: 286px;
+      }
+    }
+  }
+}

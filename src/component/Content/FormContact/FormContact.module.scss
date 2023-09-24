@@ -1,0 +1,214 @@
+.containerCenterFormContact {
+  display: flex;
+  justify-content: center;
+  .containerFormContact {
+    border: 2px solid #2a3744;
+    background: #13202b;
+    background-image: url(../../../assets/img/lights.svg);
+    .containerForm {
+      display: flex;
+      justify-content: center;
+      .containerFromText {
+        text-align: center;
+        .form {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          .formEmail {
+            display: flex;
+            border: 2px solid #2a3744;
+            background: #121e28;
+            color: #3d4c5b;
+            outline: none;
+          }
+          .formBtnSubmit {
+            color: #10151a;
+            background: #ceaaff;
+          }
+        }
+        .h4NewsText {
+          color: #9aafc3;
+          opacity: 0.6;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1920px) {
+  .containerCenterFormContact {
+    margin-top: 214px;
+    .containerFormContact {
+      width: 1140px;
+      height: 390px;
+      border-radius: 30px;
+      .containerForm {
+        padding-top: 40px;
+        padding-bottom: 64px;
+        .containerFromText {
+          .form {
+            .formEmail {
+              padding: 21px 368px 23px 28px;
+              border-radius: 16px;
+              margin-right: 26px;
+              font-size: 20px;
+              font-weight: 600;
+            }
+            .formBtnSubmit {
+              padding: 16px 35px 16px 37px;
+              font-size: 20px;
+              font-weight: 600;
+              line-height: 36px; /* 180% */
+              border-radius: 16px;
+            }
+          }
+          .h2TitleText {
+            font-size: 54px;
+            margin: 18px;
+            font-weight: 700;
+          }
+          .h4NewsText {
+            margin: 26px;
+            font-size: 36px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .containerCenterFormContact {
+    margin-top: 100px;
+    .containerFormContact {
+      max-width: 736px;
+      max-height: 293px;
+      border-radius: 30px;
+      background-image: none;
+      .containerForm {
+        padding-top: 35px;
+        padding-bottom: 48px;
+        .containerFromText {
+          .form {
+            .formEmail {
+              padding: 21px 58px 23px 28px;
+              border-radius: 16px;
+              margin-right: 26px;
+              font-size: 20px;
+              font-weight: 600;
+            }
+            .formBtnSubmit {
+              padding: 12px 32px;
+              font-size: 20px;
+              font-weight: 600;
+              line-height: 36px; /* 180% */
+              border-radius: 16px;
+            }
+          }
+          .h2TitleText {
+            font-size: 36px;
+            margin: 15px;
+            font-weight: 700;
+          }
+          .h4NewsText {
+            margin: 28px;
+            font-size: 33px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .containerCenterFormContact {
+    margin-top: 95px;
+    .containerFormContact {
+      max-width: 400px;
+      max-height: 252px;
+      border-radius: 22px;
+      .containerForm {
+        padding-top: 28px;
+        padding-bottom: 24px;
+        .containerFromText {
+          .form {
+            .formEmail {
+              margin: 0;
+              padding: 13px 0px;
+              padding-left: 18px;
+              padding-right: 141px;
+              border-radius: 16px;
+              font-size: 14px;
+              font-weight: 600;
+            }
+
+            .formBtnSubmit {
+              margin-top: 16px;
+              padding: 10px 140px;
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 24px; /* 180% */
+              border-radius: 16px;
+            }
+          }
+          .h2TitleText {
+            font-size: 28px;
+            margin: 12px;
+            font-weight: 700;
+          }
+          .h4NewsText {
+            margin: 15px;
+            font-size: 19px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  .containerCenterFormContact {
+    margin-top: 83px;
+    .containerFormContact {
+      max-width: 328px;
+      max-height: 280px;
+      border-radius: 22px;
+      .containerForm {
+        padding-top: 28px;
+        padding-bottom: 24px;
+        .containerFromText {
+          .form {
+            .formEmail {
+              margin: 0;
+              padding: 13px 0px;
+              padding-left: 18px;
+              padding-right: 69px;
+              border-radius: 16px;
+              font-size: 14px;
+              font-weight: 600;
+            }
+
+            .formBtnSubmit {
+              margin-top: 16px;
+              padding: 10px 104px;
+              font-size: 14px;
+              font-weight: 600;
+              line-height: 24px; /* 180% */
+              border-radius: 16px;
+            }
+          }
+          .h2TitleText {
+            font-size: 28px;
+            margin: 12px;
+            font-weight: 700;
+          }
+          .h4NewsText {
+            margin: 15px;
+            font-size: 19px;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

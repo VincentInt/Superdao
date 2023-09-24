@@ -1,0 +1,315 @@
+.containerCenterPodcasts {
+  display: flex;
+  justify-content: center;
+  .containerPodcasts {
+    .containerTitle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .btnArrowSell {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        color: #8395a7;
+      }
+      .containerFlexTitleText {
+        position: relative;
+        .svgStar {
+          position: absolute;
+        }
+      }
+    }
+    .containerCardPodcasts {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .cardPodcasts {
+        border: 2px solid #2a3744;
+        background: #121e28;
+        .containerImgCardPodcasts {
+          display: flex;
+          align-items: center;
+        }
+        .containerTextCard {
+          color: white;
+          .h5Text {
+            margin: 0;
+          }
+          .pText {
+            margin: 0;
+            opacity: 0.8;
+          }
+        }
+        .btnArrowRead {
+          cursor: pointer;
+          padding: 0;
+          background-color: transparent;
+          border: none;
+          color: black;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1920px) {
+  .containerCenterPodcasts {
+    margin-top: 170px;
+    .containerPodcasts {
+      width: 1040px;
+      .containerCardPodcasts {
+        .cardPodcasts {
+          width: 305px;
+          height: 304px;
+          margin: 0px 14px;
+          padding: 30px;
+          border-radius: 30px;
+          .containerImgCardPodcasts {
+            .imgCardPodcasts {
+              width: 50px;
+            }
+          }
+          .containerTextCard {
+            margin-top: 22px;
+            width: 301px;
+            height: 160px;
+            .h5Text {
+              font-size: 22px;
+              font-weight: 700;
+            }
+            .pText {
+              margin-top: 18px;
+              font-size: 17px;
+              font-weight: 600;
+            }
+          }
+          .btnArrowRead {
+            margin-top: 49px;
+            font-size: 16px;
+            font-weight: 700;
+            color: white;
+            .svgArrow {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+      .containerTitle {
+        .btnArrowSell {
+          font-size: 22px;
+          font-weight: 700;
+          .svgArrow {
+            margin-left: 10px;
+          }
+        }
+        .containerFlexTitleText {
+          .h2Text {
+            font-size: 54px;
+            font-weight: 700;
+          }
+          .svgStar {
+            width: 58px;
+            top: 25px;
+            right: 280px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .containerCenterPodcasts {
+    margin-top: 100px;
+    .containerPodcasts {
+      width: 736px;
+      .containerCardPodcasts {
+        .cardPodcasts {
+          width: 205px;
+          height: 244px;
+          margin: 0px 14px;
+          padding: 30px;
+          border-radius: 30px;
+          .containerImgCardPodcasts {
+            .imgCardPodcasts {
+              width: 40px;
+            }
+          }
+          .containerTextCard {
+            margin-top: 22px;
+            width: 201px;
+            height: 130px;
+            .h5Text {
+              font-size: 17px;
+              font-weight: 700;
+            }
+            .pText {
+              margin-top: 10px;
+              font-size: 14px;
+              font-weight: 600;
+            }
+          }
+          .btnArrowRead {
+            margin-top: 49px;
+            font-size: 16px;
+            font-weight: 700;
+            color: white;
+            .svgArrow {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+      .containerTitle {
+        .btnArrowSell {
+          font-size: 22px;
+          font-weight: 700;
+          .svgArrow {
+            margin-left: 10px;
+          }
+        }
+        .containerFlexTitleText {
+          .h2Text {
+            font-size: 36px;
+            font-weight: 700;
+          }
+          .svgStar {
+            width: 40px;
+            top: 5px;
+            right: 180px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .containerCenterPodcasts {
+    margin-top: 80px;
+    .containerPodcasts {
+      width: 400px;
+      .containerCardPodcasts {
+        display: block;
+        .cardPodcasts {
+          width: 300px;
+          height: 214px;
+          margin: 14px;
+          padding: 30px;
+          border-radius: 30px;
+          .containerImgCardPodcasts {
+            .imgCardPodcasts {
+              width: 40px;
+            }
+          }
+          .containerTextCard {
+            margin-top: 22px;
+            width: 301px;
+            height: 90px;
+            .h5Text {
+              font-size: 17px;
+              font-weight: 700;
+            }
+            .pText {
+              margin-top: 10px;
+              font-size: 14px;
+              font-weight: 600;
+            }
+          }
+          .btnArrowRead {
+            margin-top: 49px;
+            font-size: 16px;
+            font-weight: 700;
+            color: white;
+            .svgArrow {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+      .containerTitle {
+        .btnArrowSell {
+          font-size: 18px;
+          font-weight: 700;
+          .svgArrow {
+            margin-left: 10px;
+          }
+        }
+        .containerFlexTitleText {
+          .h2Text {
+            font-size: 28px;
+            font-weight: 700;
+          }
+          .svgStar {
+            width: 30px;
+            top: 5px;
+            right: 140px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  .containerCenterPodcasts {
+    margin-top: 80px;
+    .containerPodcasts {
+      width: 328px;
+      .containerCardPodcasts {
+        display: block;
+        .cardPodcasts {
+          width: 220px;
+          height: 244px;
+          margin: 14px;
+          padding: 30px;
+          border-radius: 30px;
+          .containerImgCardPodcasts {
+            .imgCardPodcasts {
+              width: 40px;
+            }
+          }
+          .containerTextCard {
+            margin-top: 22px;
+            width: 220px;
+            height: 120px;
+            .h5Text {
+              font-size: 17px;
+              font-weight: 700;
+            }
+            .pText {
+              margin-top: 10px;
+              font-size: 14px;
+              font-weight: 600;
+            }
+          }
+          .btnArrowRead {
+            margin-top: 49px;
+            font-size: 16px;
+            font-weight: 700;
+            color: white;
+            .svgArrow {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+      .containerTitle {
+        .btnArrowSell {
+          font-size: 18px;
+          font-weight: 700;
+          .svgArrow {
+            margin-left: 10px;
+          }
+        }
+        .containerFlexTitleText {
+          .h2Text {
+            font-size: 28px;
+            font-weight: 700;
+          }
+          .svgStar {
+            width: 30px;
+            top: 5px;
+            right: 140px;
+          }
+        }
+      }
+    }
+  }
+}

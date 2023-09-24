@@ -1,0 +1,106 @@
+.btnAppNav {
+  display: flex;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  align-items: center;
+  input{
+    color: white;
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    outline: none;
+  }
+  &:hover {
+    background-color: rgba(208, 220, 245, 0.08);
+  }
+}
+@media (max-width: 1920px) {
+  .btnAppNav {
+    border-radius: 8px;
+    margin-bottom: 7px;
+    max-height: 34px;
+    padding: 8px 12px;
+    .iconBtn{
+      width: 20px;
+    }
+    svg{
+      width: 20px;
+    }
+    h4 {
+      margin-left: 10px;
+      font-size: 17px;
+      font-weight: 600;
+    }
+    input{
+      margin-left: 10px;
+      font-size: 17px;
+      font-weight: 600;
+    }
+  }
+}
+@media (max-width: 960px) {
+  .btnAppNav {
+    border-radius: 4px;
+    margin-bottom: 5px;
+    max-height: 22px;
+    padding: 6px 10px;
+    svg{
+      width: 13px;
+    }
+    h4 {
+      margin-left: 5px;
+      font-size: 8px;
+      font-weight: 600;
+    }
+    input{
+      margin-left: 5px;
+      font-size: 8px;
+      font-weight: 600;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .btnAppNav {
+    border-radius: 3px;
+    margin-bottom: 3px;
+    max-height: 13px;
+    padding: 3px 5px;
+    svg{
+      width: 8.5px;
+    }
+    h4 {
+      margin-left: 6.6px;
+      font-size: 6px;
+      font-weight: 600;
+    }
+    input{
+      margin-left: 6.6px;
+      font-size: 6px;
+      font-weight: 600;
+    }
+  }
+}
+@media (max-width: 360px) {
+  .btnAppNav {
+    border-radius: 3px;
+    margin-bottom: 3px;
+    max-height: 13px;
+    padding: 3px 5px;
+    svg{
+      width: 7.5px;
+    }
+    h4 {
+      margin-left: 4px;
+      font-size: 6px;
+      font-weight: 600;
+    }
+    input{
+      display: flex;
+      align-items: center;
+      margin-left: 4px;
+      font-size: 6px;
+      font-weight: 600;
+    }
+  }
+}

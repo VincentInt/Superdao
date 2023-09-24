@@ -1,0 +1,365 @@
+.flexContainer {
+  display: flex;
+  justify-content: center;
+  .TotalContainerProjects {
+    .titleFlexContainer {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      .svgBack{
+        position: absolute;
+      }
+    }
+    .flexContainerBtn {
+      display: flex;
+      justify-content: center;
+      .containerBtnProjectType {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .btnProjectType {
+          display: flex;
+          align-items: center;
+          border: none;
+          background: #182632;
+          &:nth-child(1) {
+            color: #ffb4d3;
+          }
+          &:nth-child(2) {
+            color: #ffc24c;
+          }
+          &:nth-child(3) {
+            color: #d387f7;
+          }
+          &:nth-child(4) {
+            color: #77e6ff;
+          }
+          &:nth-child(5) {
+            color: #23c9de;
+          }
+          &:nth-child(6) {
+            color: #ff9e9e;
+          }
+          &:nth-child(7) {
+            color: #707f8d;
+          }
+        }
+      }
+    }
+    .containerWindow{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    .windowProject {
+      background: #010001;
+      overflow: hidden;
+    }}
+    .containerflexCenterBtn {
+      display: flex;
+      justify-content: center;
+      .btnAllProjects {
+        background: #ffa800;
+        color: #0a1117;
+      }
+    }
+    .containerDesignedForH1Text {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      .svgDesignedFor{
+        position: absolute;
+      }
+      .designedForH1Text {
+        color: #37424d;
+        &:nth-child(1) {
+          color: #e5e5e5;
+        }
+        &:nth-child(5) {
+          color: #23c9de;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1920px) {
+  .flexContainer {
+    margin-top: 65px;
+    .TotalContainerProjects {
+      max-width: 1140px;
+      .titleFlexContainer {
+        .svgBack {
+          margin-right: 800px;
+        }
+        .titleH1Text {
+          font-size: 54px;
+          font-weight: 700;
+          line-height: 60px;
+        }
+      }
+      .flexContainerBtn {
+        .containerBtnProjectType {
+          width: 920px;
+          .btnProjectType {
+            padding: 8px 26px;
+            margin-top: 24px;
+            margin-right: 24px;
+            border-radius: 100px;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 40px;
+            .svgBtn {
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+      .windowProject {
+        margin-top: 44px;
+        border-radius: 30px;
+        max-width: 1200px;
+        max-height: 493px;
+      }
+      .containerflexCenterBtn {
+        margin-top: -2.8%;
+        .btnAllProjects {
+          cursor: pointer;
+          padding: 8px 24px;
+          border-radius: 100px;
+          border: 3px solid #0a1117;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 32px;
+        }
+      }
+      .containerDesignedForH1Text {
+        margin-top: 178px;
+        .svgDesignedFor {
+         margin-right: 1000px;
+        }
+        .designedForH1Text {
+          font-size: 54px;
+          font-weight: 700;
+          line-height: 80px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .flexContainer {
+    margin-top: 56px;
+    .TotalContainerProjects {
+      max-width: 736px;
+      .titleFlexContainer {
+        .svgBack {
+          width: 61px;
+          margin-right: 550px;
+          
+        }
+        .titleH1Text {
+          font-size: 36px;
+          font-weight: 700;
+          line-height: 60px;
+        }
+      }
+      .flexContainerBtn {
+        .containerBtnProjectType {
+          width: 768px;
+          .btnProjectType {
+            cursor: pointer;
+            padding: 6px 24px;
+            margin-top: 24px;
+            margin-right: 24px;
+            border-radius: 100px;
+            font-size: 14.5px;
+            font-weight: 600;
+            line-height: 32px;
+            .svgBtn {
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+      .windowProject {
+        margin-top: 44px;
+        border-radius: 30px;
+        max-width: 774px;
+        max-height: 318px;
+        .imgInWindow {
+          max-width: 774px;
+        }
+      }
+      .containerflexCenterBtn {
+        margin-top: -3%;
+        .btnAllProjects {
+          cursor: pointer;
+          padding: 4px 20px;
+          border-radius: 100px;
+          border: 3px solid #0a1117;
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 32px;
+        }
+      }
+      .containerDesignedForH1Text {
+        margin-top: 84px;
+        .svgDesignedFor {
+          margin-right: 650px;
+          max-width: 50px;
+        }
+        .designedForH1Text {
+          font-size: 36px;
+          font-weight: 700;
+          line-height: 50px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .flexContainer {
+    margin-top: 74px;
+    .TotalContainerProjects {
+      max-width: 450px;
+      .titleFlexContainer {
+        .svgBack {
+          width: 38px;
+          margin-right: 400px;
+          margin-top: -20px;
+        }
+        .titleH1Text {
+          text-align: center;
+          font-size: 28px;
+          font-weight: 700;
+          line-height: 36px;
+        }
+      }
+      .flexContainerBtn {
+        .containerBtnProjectType {
+          max-width: 400px;
+          .btnProjectType {
+            cursor: pointer;
+            padding: 6px 14px;
+            margin-top: 12px;
+            margin-right: 12px;
+            border-radius: 100px;
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 32px;
+            .svgBtn {
+              width: 10px;
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+      .windowProject {
+        margin-top: 44px;
+        border-radius: 30px;
+        max-width: 400px;
+        max-height: 328px;
+        .imgInWindow {
+          max-height: 400px;
+        }
+      }
+      .containerflexCenterBtn {
+        margin-top: -3%;
+        .btnAllProjects {
+          cursor: pointer;
+          padding: 2px 12px;
+          border-radius: 100px;
+          border: 3px solid #0a1117;
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 24px;
+        }
+      }
+      .containerDesignedForH1Text {
+        margin-top: 68px;
+        .svgDesignedFor {
+          margin-right: 480px;
+          max-width: 28px;
+        }
+        .designedForH1Text {
+          font-size: 28px;
+          font-weight: 700;
+          line-height: 36px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  .flexContainer {
+    margin-top: 74px;
+    .TotalContainerProjects {
+      max-width: 328px;
+      .titleFlexContainer {
+        .svgBack {
+          width: 38px;
+          margin-right: 280px;
+        }
+        .titleH1Text {
+          text-align: center;
+          font-size: 28px;
+          font-weight: 700;
+          line-height: 36px;
+        }
+      }
+      .flexContainerBtn {
+        .containerBtnProjectType {
+          max-width: 328px;
+          .btnProjectType {
+            cursor: pointer;
+            padding: 6px 14px;
+            margin-top: 12px;
+            margin-right: 12px;
+            border-radius: 100px;
+            font-size: 13px;
+            font-weight: 600;
+            line-height: 32px;
+            .svgBtn {
+              width: 10px;
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+      .windowProject {
+        margin-top: 44px;
+        border-radius: 20px;
+        max-width: 328px;
+        max-height: 328px;
+        .imgInWindow {
+          max-height: 328px;
+        }
+      }
+      .containerflexCenterBtn {
+        margin-top: -3%;
+        .btnAllProjects {
+          cursor: pointer;
+          padding: 2px 12px;
+          border-radius: 100px;
+          border: 3px solid #0a1117;
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 24px;
+        }
+      }
+      .containerDesignedForH1Text {
+        margin-top: 68px;
+        .svgDesignedFor {
+          max-width: 28px;
+          margin-right: 300px;
+          margin-top: -30px;
+        }
+        .designedForH1Text {
+          font-size: 28px;
+          font-weight: 700;
+          line-height: 36px;
+        }
+      }
+    }
+  }
+}

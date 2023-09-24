@@ -1,0 +1,124 @@
+.containerCenterFooter {
+  display: flex;
+  justify-content: center;
+  background: #121e28;
+  .containerFooter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .containerBtnFooter {
+      display: flex;
+      justify-content: space-evenly;
+      .btnContantFooter {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background: rgba(119, 230, 255, 0.15);
+      }
+      .btnFooter {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+      }
+    }
+  }
+}
+@media (max-width: 1920px) {
+  .containerCenterFooter {
+    margin-top: 200px;
+    height: 168px;
+    .containerFooter {
+      width: 1140px;
+      .containerBtnFooter {
+        width: 300px;
+        .btnContantFooter {
+          padding: 15px;
+          border-radius: 100px;
+        }
+        .btnFooter {
+          font-size: 18px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .containerCenterFooter {
+    margin-top: 120px;
+    height: 116px;
+    .containerFooter {
+      width: 736px;
+      .svgIcon {
+        width: 170px;
+      }
+      .containerBtnFooter {
+        width: 250px;
+        .btnContantFooter {
+          padding: 10px;
+          border-radius: 100px;
+        }
+        .btnFooter {
+          font-size: 22px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .containerCenterFooter {
+    margin-top: 80px;
+    height: 206px;
+    .containerFooter {
+      display: block;
+      width: 300px;
+      margin-top: 32px;
+      text-align: center;
+      .svgIcon {
+        width: 170px;
+      }
+      .containerBtnFooter {
+        width: 100%;
+        .btnContantFooter {
+          padding: 10px;
+          border-radius: 100px;
+        }
+        .btnFooter {
+          font-size: 14px;
+          padding: 10px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  .containerCenterFooter {
+    margin-top: 80px;
+    height: 206px;
+    .containerFooter {
+      display: block;
+      width: 300px;
+      margin-top: 32px;
+      text-align: center;
+      .svgIcon {
+        width: 128px;
+      }
+      .containerBtnFooter {
+        width: 100%;
+        .btnContantFooter {
+          padding: 10px;
+          border-radius: 100px;
+        }
+        .btnFooter {
+          font-size: 14px;
+          padding: 10px;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

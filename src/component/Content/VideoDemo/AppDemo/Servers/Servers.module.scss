@@ -1,0 +1,120 @@
+.containerChannel {
+  background-color: #343a46;
+  .containerBtn {
+    .logoBtnMessege {
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
+    }
+    .btnUI {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(208, 220, 245, 0.08);
+      border: none;
+      border-radius: 87.337px;
+    }
+  }
+}
+.btnUsersChannel {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+}
+@media (max-width: 1920px) {
+  .containerChannel {
+    width: 54px;
+    .containerBtn {
+      margin-top: 20px;
+      .linkContainer {
+        margin-top: 9px;
+      }
+      .btnUI {
+        width: 33.735px;
+        margin: 7px 10px;
+        height: 33.735px;
+      }
+      .userBtnContainer {
+        margin-top: 15vh;
+      }
+    }
+  }
+  .btnUsersChannel {
+    width: 33px;
+    padding: 7px 10px;
+    .imgBtnUserChannel{
+      width: 33px;
+    }
+    &:hover {
+      border-left: 2px solid #fc7900;
+      padding: 7px 8px;
+    }
+  }
+  .totalIconUi{
+    width: 18px;
+  }
+}
+@media (max-width: 960px) {
+  .containerChannel {
+    width: 35.5px;
+    .containerBtn {
+      margin-top: 10px;
+      .linkContainer {
+        margin-top: 9px;
+      }
+      .btnUI {
+        width: 24px;
+        margin: 7px 8px;
+        height: 24px;
+      }
+      .userBtnContainer {
+        margin-top: 5vh;
+      }
+    }
+  }
+  .btnUsersChannel {
+    padding: 7px 10px;
+    .imgBtnUserChannel{
+      width: 20px;
+    }
+    &:hover {
+      border-left: 2px solid #fc7900;
+      padding: 7px 8px;
+    }
+  }
+  .totalIconUi{
+    width: 13px;
+  }
+}
+@media (max-width: 768px) {
+  .containerChannel {
+    width: 28px;
+    .containerBtn {
+      margin-top: 7px;
+      .linkContainer {
+        margin-top: 9px;
+      }
+      .btnUI {
+        width: 20px;
+        margin: 3px 5px;
+        height: 20px;
+      }
+      .userBtnContainer {
+        margin-top: 0vh;
+      }
+    }
+  }
+  .btnUsersChannel {
+    padding: 1.5px 5px;
+    .imgBtnUserChannel{
+      width: 18.5px;
+    }
+    &:hover {
+      border-left: 2px solid #fc7900;
+      padding: 1.5px 3px;
+    }
+  }
+}

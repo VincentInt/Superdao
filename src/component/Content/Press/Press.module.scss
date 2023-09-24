@@ -1,0 +1,306 @@
+.containerCenterPress {
+  display: flex;
+  justify-content: center;
+  .containerPress {
+    .containerCardPress {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .cardPress {
+        .containerImgCardPress {
+          display: flex;
+          align-items: center;
+        }
+        .containerTextCard {
+          color: black;
+          .h5Text {
+            margin: 0;
+          }
+          .pText {
+            margin: 0;
+          }
+        }
+        .btnArrowRead {
+          cursor: pointer;
+          padding: 0;
+          background-color: transparent;
+          border: none;
+          color: black;
+        }
+      }
+    }
+    .containerTitle {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .btnArrowSell {
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        color: #8395a7;
+      }
+      .containerFlexTitleText {
+        display: flex;
+        position: relative;
+        .svgStar {
+          position: absolute;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1920px) {
+  .containerCenterPress {
+    margin-top: 170px;
+    .containerPress {
+      width: 1040px;
+      .containerCardPress {
+        .cardPress {
+          margin: 0px 14px;
+          margin-top: 32px;
+          width: 305px;
+          height: 322px;
+          padding: 30px 28px;
+          border-radius: 30px;
+          .containerImgCardPress {
+            height: 39px;
+          }
+          .containerTextCard {
+            margin-top: 22px;
+            height: 200px;
+            .h5Text {
+              height: 100px;
+              font-size: 22px;
+              font-weight: 700;
+            }
+            .pText {
+              margin-top: 12px;
+              font-size: 17px;
+              font-weight: 600;
+            }
+          }
+          .btnArrowRead {
+            margin-top: 49px;
+            font-size: 16px;
+            font-weight: 700;
+            .svgArrow {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+      .containerTitle {
+        .btnArrowSell {
+          font-size: 22px;
+          font-weight: 700;
+          .svgArrow {
+            margin-left: 10px;
+          }
+        }
+        .containerFlexTitleText {
+          .h2Text {
+            font-size: 54px;
+            font-weight: 700;
+          }
+          .svgStar {
+            width: 58px;
+            top: 25px;
+            margin-left: 180px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .containerCenterPress {
+    margin-top: 70px;
+    .containerPress {
+      width: 736px;
+      .containerCardPress {
+        .cardPress {
+          margin: 0px 14px;
+          margin-top: 32px;
+          width: 232px;
+          height: 305px;
+          padding: 30px 28px;
+          border-radius: 22px;
+          .containerImgCardPress {
+            height: 39px;
+          }
+          .containerTextCard {
+            margin-top: 22px;
+            height: 180px;
+            .h5Text {
+              height: 98px;
+              font-size: 18px;
+              font-weight: 700;
+            }
+            .pText {
+              margin-top: 12px;
+              font-size: 13px;
+              font-weight: 600;
+            }
+          }
+          .btnArrowRead {
+            margin-top: 49px;
+            font-size: 16px;
+            font-weight: 700;
+            .svgArrow {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+      .containerTitle {
+        .btnArrowSell {
+          font-size: 18px;
+          font-weight: 700;
+          .svgArrow {
+            margin-left: 10px;
+          }
+        }
+        .containerFlexTitleText {
+          .h2Text {
+            font-size: 36px;
+            font-weight: 700;
+          }
+          .svgStar {
+            width: 45px;
+            top: 5px;
+            margin-left: 120px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .containerCenterPress {
+    margin-top: 65px;
+    .containerPress {
+      width: 440px;
+      .containerCardPress {
+        display: block;
+        .cardPress {
+          margin: 0px 0px;
+          margin-top: 24px;
+          width: 400px;
+          height: 238px;
+          padding: 20px 20px;
+          border-radius: 22px;
+          .containerImgCardPress {
+            height: 39px;
+          }
+          .containerTextCard {
+            margin-top: 22px;
+            height: 100px;
+            .h5Text {
+              height: 50px;
+              font-size: 18px;
+              font-weight: 700;
+            }
+            .pText {
+              width: 300px;
+              margin-top: 8px;
+              font-size: 13px;
+              font-weight: 600;
+            }
+          }
+          .btnArrowRead {
+            margin-top: 49px;
+            font-size: 16px;
+            font-weight: 700;
+            .svgArrow {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+      .containerTitle {
+        .btnArrowSell {
+          font-size: 18px;
+          font-weight: 700;
+          .svgArrow {
+            margin-left: 10px;
+          }
+        }
+        .containerFlexTitleText {
+          .h2Text {
+            font-size: 36px;
+            font-weight: 700;
+          }
+          .svgStar {
+            width: 45px;
+            top: 5px;
+            margin-left: 120px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  .containerCenterPress {
+    margin-top: 65px;
+    .containerPress {
+      width: 328px;
+      .containerCardPress {
+        display: block;
+        .cardPress {
+          margin: 0px 0px;
+          margin-top: 24px;
+          width: 290px;
+          height: 208px;
+          padding: 20px 20px;
+          border-radius: 22px;
+          .containerImgCardPress {
+            height: 39px;
+          }
+          .containerTextCard {
+            margin-top: 22px;
+            height: 85px;
+            .h5Text {
+              height: 60px;
+              font-size: 18px;
+              font-weight: 700;
+            }
+            .pText {
+              margin-top: 8px;
+              font-size: 13px;
+              font-weight: 600;
+            }
+          }
+          .btnArrowRead {
+            margin-top: 49px;
+            font-size: 16px;
+            font-weight: 700;
+            .svgArrow {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+      .containerTitle {
+        .btnArrowSell {
+          font-size: 18px;
+          font-weight: 700;
+          .svgArrow {
+            margin-left: 10px;
+          }
+        }
+        .containerFlexTitleText {
+          .h2Text {
+            font-size: 28px;
+            font-weight: 700;
+          }
+          .svgStar {
+            width: 31px;
+            top: 5px;
+            margin-left: 80px;
+          }
+        }
+      }
+    }
+  }
+}

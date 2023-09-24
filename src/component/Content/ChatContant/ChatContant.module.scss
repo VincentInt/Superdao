@@ -1,0 +1,216 @@
+.containerCenterChatContant {
+  display: flex;
+  justify-content: center;
+  .containerChatContant {
+    text-align: center;
+    .h2Text {
+      margin: 0;
+    }
+    .h3Text {
+      margin: 0;
+      color: #5a6c7e;
+    }
+    .containerBtnContact {
+      display: flex;
+      justify-content: center;
+      .btnContact {
+        &:nth-child(1) {
+          background: #ffc803;
+        }
+        &:nth-child(2) {
+          background: #e2c1f9;
+        }
+        .containerFlex {
+          display: flex;
+          align-items: center;
+        }
+        .btnText {
+          outline: none;
+          text-align: left;
+          .h4Text {
+            margin: 0;
+            color: #4d3705;
+          }
+          .pText {
+            margin: 0;
+            color: #4d3705;
+            opacity: 0.7;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1920px) {
+  .containerCenterChatContant {
+    .containerChatContant {
+      margin-top: 120px;
+      width: 1040px;
+      .h2Text {
+        margin: 0;
+        font-size: 54px;
+        font-weight: 700;
+      }
+      .h3Text {
+        margin: 0;
+        font-size: 48px;
+        font-weight: 700;
+      }
+      .containerBtnContact {
+        margin-top: 52px;
+        .btnContact {
+          border-radius: 16px;
+          margin: 0px 20px;
+          padding: 16px;
+          .containerFlex {
+            .svgIcon {
+              padding: 12px;
+              border-radius: 8px;
+            }
+          }
+          .btnText {
+            margin-left: 16px;
+            .h4Text {
+              font-size: 20px;
+              font-weight: 700;
+            }
+            .pText {
+              font-size: 16px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .containerCenterChatContant {
+    .containerChatContant {
+      margin-top: 100px;
+      width: 768px;
+      .h2Text {
+        margin: 0;
+        font-size: 36px;
+        font-weight: 700;
+      }
+      .h3Text {
+        margin: 0;
+        font-size: 30px;
+        font-weight: 700;
+      }
+      .containerBtnContact {
+        margin-top: 42px;
+        .btnContact {
+          border-radius: 16px;
+          margin: 0px 20px;
+          padding: 14px;
+          .containerFlex {
+            .svgIcon {
+              padding: 12px;
+              border-radius: 8px;
+            }
+          }
+          .btnText {
+            margin-left: 16px;
+            .h4Text {
+              font-size: 18px;
+              font-weight: 700;
+            }
+            .pText {
+              font-size: 14px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .containerCenterChatContant {
+    .containerChatContant {
+      margin-top: 90px;
+      width: 400px;
+      .h2Text {
+        margin: 0;
+        font-size: 28px;
+        font-weight: 700;
+      }
+      .h3Text {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .containerBtnContact {
+        margin-top: 30px;
+        .btnContact {
+          border-radius: 16px;
+          margin: 0px 10px;
+          padding: 9px;
+          .containerFlex {
+            .svgIcon {
+              padding: 8px;
+              border-radius: 8px;
+            }
+          }
+          .btnText {
+            margin-left: 8px;
+            .h4Text {
+              font-size: 16px;
+              font-weight: 700;
+            }
+            .pText {
+              font-size: 12px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 360px) {
+  .containerCenterChatContant {
+    .containerChatContant {
+      margin-top: 80px;
+      width: 250px;
+      .h2Text {
+        margin: 0;
+        font-size: 28px;
+        font-weight: 700;
+      }
+      .h3Text {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .containerBtnContact {
+        margin-top: 30px;
+        display: block;
+        .btnContact {
+          border-radius: 16px;
+          margin: 5px 5px;
+          padding: 9px;
+          .containerFlex {
+            .svgIcon {
+              padding: 8px;
+              border-radius: 8px;
+            }
+          }
+          .btnText {
+            margin-left: 8px;
+            .h4Text {
+              font-size: 16px;
+              font-weight: 700;
+            }
+            .pText {
+              font-size: 12px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,192 @@
+.ContainerVideoDemoCenter {
+  display: flex;
+  justify-content: center;
+  .ContainerVideoDemo {
+    .containerAppDemo{
+      display: flex;
+      justify-content: center;
+    }
+    .titleContainer {
+      display: flex;
+      justify-content: center;
+      position: relative;
+      .svgTitle {
+        position: absolute;
+      }
+      .titleH1Text {
+        color: #e5e5e5;
+        text-align: center;
+      }
+    }
+    .btnVideoDemoContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      .btnVideoDemo {
+        cursor: pointer;
+        background-color: transparent;
+        color: #8395a7;
+        border: none;
+        &:hover {
+          color: #ffc803;
+        }
+      }
+    }
+    .containerBtnWatch {
+      display: flex;
+      justify-content: center;
+      .btnWatch {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        border: none;
+        background: rgba(255, 207, 1, 0.15);
+        justify-content: center;
+        color: #ffcf01;
+      }
+    }
+  }
+}
+@media (max-width: 1920px) {
+  .ContainerVideoDemoCenter {
+    margin-top: 174px;
+    .ContainerVideoDemo {
+      max-width: 1140px;
+        .svgTitle {
+          margin-right: 750px;
+        }
+        .titleH1Text {
+          font-size: 54px;
+          font-weight: 700;
+          line-height: 80px;
+        }
+      }
+      .btnVideoDemoContainer {
+        max-width: 1024px;
+        .btnVideoDemo {
+          margin-right: 27px;
+          font-size: 22px;
+          font-weight: 600;
+          line-height: 40px;
+        }
+      }
+      .containerBtnWatch {
+        margin-top: 37px;
+        .btnWatch {
+          border-radius: 16px;
+          padding: 18px 56px;
+          font-size: 20px;
+          font-weight: 700;
+          line-height: 36px;
+        }
+      }
+    }
+  }
+  @media (max-width: 960px) {
+    .ContainerVideoDemoCenter {
+      margin-top: 100px;
+      .ContainerVideoDemo {
+        max-width: 736px;
+          .svgTitle {
+            margin-right: 550px;
+          }
+          .titleH1Text {
+            font-size: 36px;
+            font-weight: 700;
+            line-height: 80px;
+          }
+        }
+        .btnVideoDemoContainer {
+          max-width: 736px;
+          .btnVideoDemo {
+            margin-right: 27px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 40px;
+          }
+        }
+        .containerBtnWatch {
+          margin-top: 27px;
+          .btnWatch {
+            border-radius: 16px;
+            padding: 10px 44px;
+            font-size: 17px;
+            font-weight: 700;
+            line-height: 36px;
+          }
+        }
+      }
+    }
+    @media (max-width: 768px) {
+      .ContainerVideoDemoCenter {
+        margin-top: 80px;
+        .ContainerVideoDemo {
+          max-width: 400px;
+            .svgTitle {
+              margin-right: 450px;
+            }
+            .titleH1Text {
+              font-size: 28px;
+              font-weight: 700;
+              line-height: 36px;
+            }
+          }
+          .btnVideoDemoContainer {
+            max-width: 400px;
+            .btnVideoDemo {
+              margin-right: 19px;
+              font-size: 16px;
+              font-weight: 600;
+              line-height: 28px;
+            }
+          }
+          .containerBtnWatch {
+            margin-top: 24px;
+            .btnWatch {
+              border-radius: 8px;
+              padding: 4px 30px;
+              font-size: 17px;
+              font-weight: 700;
+              line-height: 36px;
+            }
+          }
+        }
+      }
+      @media (max-width: 360px) {
+        .ContainerVideoDemoCenter {
+          margin-top: 80px;
+          .ContainerVideoDemo {
+            max-width: 328px;
+              .svgTitle {
+                width: 27px;
+                margin-right: 300px;
+              }
+              .titleH1Text {
+                font-size: 28px;
+                font-weight: 700;
+                line-height: 36px;
+              }
+            }
+            .btnVideoDemoContainer {
+              max-width: 400px;
+              .btnVideoDemo {
+                margin: 0;
+                margin-right: 19px;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 28px;
+              }
+            }
+            .containerBtnWatch {
+              margin-top: 21px;
+              .btnWatch {
+                border-radius: 8px;
+                padding: 4px 30px;
+                font-size: 15px;
+                font-weight: 700;
+                line-height: 36px;
+              }
+            }
+          }
+        }

@@ -1,0 +1,41 @@
+.containerWindowApp {
+  display: flex;
+  overflow: hidden;
+
+}
+@media (max-width: 1920px) {
+  .containerWindowApp {
+    border-radius: 20px;
+    width: 1000px;
+    height: 700px;
+    margin-top: 46px;
+    margin-bottom: 46px;
+  }
+}
+@media (max-width: 960px) {
+  .containerWindowApp {
+    border-radius: 12px;
+    width: 657px;
+    height: 460px;
+    margin-top: 46px;
+    margin-bottom: 46px;
+  }
+}
+@media (max-width: 768px) {
+  .containerWindowApp {
+    border-radius: 8px;
+    width: 400px;
+    height: 280px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
+@media (max-width: 360px) {
+  .containerWindowApp {
+    width: 335px;
+    height: 230px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
+
